@@ -1,0 +1,16 @@
+<div class="card shadow-sm">
+    <img class="bd-placehoder-img card-img-top" width="100%" src='{("assets/imagens/" + livros.img + ".jpg" )}' >
+
+    <div class="card-body">
+        <p class="card-text">{{livros.name}}</p>
+        <p class="card-text">{{livros.category}}</p>
+        <p class="card-text">{{livros.quantify}}</p>
+        <p class="card-text">{{livros.price | currency:'BRL'}}</p>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-primary">Comprar</button>
+            <button type="button" class="btn btn-sm btn-outline-primary">Detalhes</button>
+        </div>
+
+    </div>
+</div>
